@@ -7,7 +7,7 @@ My name is Zengqingkui. I am a third-year master student from the School of Comp
 <br/>
 
 ## Research interest
-* Local Differential privacy  
+* Privacy protection  
 * Federated learning  
 * Deep learning  
 
