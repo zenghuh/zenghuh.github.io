@@ -1,13 +1,13 @@
 # Site settings
-title: Zenghuh
-baseurl: "/zenghuh"
+title: Zenghuh.site
+baseurl: 
 url: "https://zenghuh.site"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
   name: Zeng qingkui
-  desc: Forver youthful Forever weeping
+  desc: 
   email: zenghuh1996@gmail.com
   selfie: "/assets/img/demo.jpg"
 
