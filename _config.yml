@@ -2,7 +2,7 @@
 title: Zenghuh.site
 baseurl: 
 url: "https://zenghuh.site"
-google_analytics: # Tracking ID, e.g. "UA-000000-01"
+google_analytics: "UA-175588416-1" # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
