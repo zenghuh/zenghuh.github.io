@@ -5,13 +5,13 @@ layout: about
 My name is Zengqingkui. I am a third-year master student from the School of Computer Science and Engineering, Anhui University of Science and Technology, China. I work on the network and information security research group and my advisor is [Prof. Xianjin Fang](http://star.aust.edu.cn/xjfang/) and [Prof.Gaoming Yang](http://jsj.aust.edu.cn/info/1181/1816.htm).
 <br/>
 
-## Research interest
+## Research Interests
 * Privacy protection  
 * Federated learning  
 * Deep learning 
 <br/>
 
-## Publication
+## Publications
 * Xianjin Fang, **Qingkui Zeng**, Gaoming Yang, Local differential privacy for human-centered computing. EURASIP Journal on Wireless Communications and Networking. 2020(1), 1-12 (2020).  
 * Xianjin Fang, **Qingkui Zeng**, Gaoming Yang, Local differential privacy for data streams. SPDE 2020.   
 * Xianjin Fang, **Qingkui Zeng**, Gaoming Yang, Federated deep learning with local differential privacy. 
@@ -26,3 +26,7 @@ My name is Zengqingkui. I am a third-year master student from the School of Comp
 
 ## Hobbies
 Metal music arrangement, electric guitar, reading
+
+## Contact
+* [Email](mailto:{{ site.author.email }})
+* [GitHub](https://github.com/{{ site.social.github }})
