@@ -1,0 +1,18 @@
+name: Validate static website
+on:
+  pull_request:
+  push:
+    branches: [master]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm run build
+      - run: npm run check
+      - run: git diff --exit-code -- index.html cv/index.html 404.html sitemap.xml robots.txt

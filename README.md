@@ -1,128 +1,40 @@
-# AP  [![Build Status](https://travis-ci.org/kssim/ap.svg?branch=master)](https://travis-ci.org/kssim/ap.svg?branch=master)
-"AP" is [Jekyll](https://jekyllrb.com/) theme for career. This theme is free and open-source.  
-Based on Chester How's tale-theme(https://github.com/chesterhow/tale) with a few new features:  
-* SNS Link
-* Google Analytics
-* Responsive design
-* Upgrading awesome fonts and modifying some layouts.
-* Use "About" as main.
-  * It can be written in simple resume form.
-* Change "Post" to "Project Portfolio"
-  * You can manage your project experience just like running a blog.
+# Qingkui Zeng — Academic Homepage
 
+English academic website for Qingkui Zeng, Lecturer at the School of Artificial Intelligence, Tongling University.
 
-# Preview
-[![AP Screenshot](https://github.com/kssim/ap/blob/master/screenshot.png?raw=true)](https://kssim.github.io/ap/)
+**Live website:** https://zenghuh.site/
+**CV:** https://zenghuh.site/cv/
 
+## Development
 
-# Usage
-1. Fork and clone the AP repo:
-    * git clone https://github.com/kssim/ap.git
-2. Install Jekyll:
-    * gem install jekyll
-3. Install the theme's dependencies
-    * bundle install
-4. Customize the theme
-    * update _config.yml
-5. Run the Jekyll server
-    * jekyll serve
+Node.js 20 or later is sufficient. The website has no npm runtime or build dependencies.
 
-
-## Structure
-* Here are the main files of the template
-```bash
-ap
-├── _includes                  # theme includes
-├── _layouts                   # theme layouts (see below for details)
-├── _posts                     # Project & Portfolio posts
-├── _sass                      # Sass partials 
-├── portfolio                  # Main page for "portfolio"
-├── assets
-|  ├── css                     # font-awesome and main css
-|  ├── fonts                   # Font-Awesome
-|  ├── favicon.ico             # Favicon
-|  └── img                     # Images used for "about" page
-├── _config.yml                # sample configuration
-└── index.md                   # Resume to show on "about" page
+```sh
+npm run build
+npm run check
+npm run dev -- --host 127.0.0.1 --port 4175 --strictPort
 ```
 
-## Configure AP
-Open _config.yml in a text editor to change most of the blog's settings.
+Open http://127.0.0.1:4175/ to preview. Rebuild and reload after changing content. The generated HTML is committed so GitHub Pages can publish the repository root directly, without running Node or Jekyll on the hosting server.
 
+## Updating content
 
-### Site Configuration
-Configure Jekyll as your own blog or with a subpath in in _config.yml:  
-```yml
-title: [Website Title]
-baseurl: [Website Subpath]
-url: [Github Page Url]
-google_analytics: [Google Analytics Tracking ID]
-```
-Please configure this before using the theme.  
-And to enable Google Analytics, add your [Traking ID](https://support.google.com/analytics/answer/1008080?visit_id=1-636579797402349951-2693679291&rd=1)
+Edit `data/site.json`, then run `npm run build` and `npm run check`. The homepage and printable CV use the same publication, education and employment records. The publication list is prerendered, so all 19 papers are readable without JavaScript. JavaScript adds search, year filters, citation copying, mobile navigation and reading progress.
 
+Keep the Scholar metrics together with their snapshot date. Publication years and BibTeX follow the publisher's final citation; notes preserve earlier Scholar records and conference years when they differ. Only add a Code link when a public repository has been verified.
 
+## Publishing and recovery
 
-### About You
-Meta variables hold basic information about your profile and resume.  
-Change these variables in _config.yml:  
-```yml
-author:
-  name: [Your Name]
-  desc: [Short introduction]
-  email: [Your E-Mail Address]
-  selfie: [Your Avatar]
-```
-Please configure this before using the theme.
+The custom domain is retained in `CNAME`; `.nojekyll` enables direct static publishing. Preserve the existing GitHub Pages branch/root publishing source. The validation workflow checks that the generated pages match their content source.
 
+The previous site's exact master commit, `073895ebadba325ea178ee73818023599a39c573`, is preserved in `backup/pre-redesign-20261006`. Git history remains available. A rollback should restore that version through a normal reviewable commit or revert, without rewriting history.
 
+## Design and sources
 
-### SNS Information
-Your SNS information to display at the bottom of the page.  
-All values except "email" are text values.  
-```yml
-social:
-  email: true
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: 
-  google_plus:
-  instagram:
-  keybase:
-  linkedin:
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:
-  steam:
-  tumblr:
-  gitlab:
-  twitter: 
-  vimeo:
-  wordpress:
-  youtube:
-  default_txt: "Follow On"
-```
+The long-page reading order and academic content patterns were informed by https://xukun12138.github.io/. All new HTML, CSS and JavaScript were written independently. Reference-author photos, documents, paper figures and tracking services are not included.
 
+The design uses white, ice blue, snow-mountain blue and deep navy, with local optimized imagery and system sans-serif fonts. Decorative landscapes and interest images were generated with the built-in ImageGen tool; the small guitar profile photograph comes from the owner's previous site. These illustrations do not document personal trips or performances.
 
-## Portfolio Schema
-```markdown
----
-layout: post
-title:  [Project title to show in portfolio list]
-info: [A brief introduction to show in portfolio list]
-tech: [The technologies used in the project to show in portfolio list]
-type: [Property of the project to be displayed in front of the project's info(toy or company name)]
----
-```
+See `docs/content-sources.md` for provenance, `docs/image-prompts.md` for image prompts and `design-qa.md` for browser and visual acceptance results.
 
-## Other formats
-It uses the markdown syntax by default, and there is no format other than the one mentioned above.  
-You can use it as you like.  
-
-
-## License
-[The MIT License (MIT)](https://raw.githubusercontent.com/kssim/ap/master/LICENSE)
+The repository's existing MIT license is retained.
