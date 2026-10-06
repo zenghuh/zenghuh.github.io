@@ -698,5 +698,11 @@
       ],
       "metadataSource": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337488"
     }
-  ]
+  ],
+  "biography": [
+    "I am a Lecturer in the School of Artificial Intelligence at Tongling University. My research focuses on privacy protection and federated learning: how to learn from distributed data while protecting individuals and keeping collaborative systems reliable.",
+    "I received my Ph.D. in Information and Communication Engineering from Nanjing University of Information Science and Technology in June 2025, and joined Tongling University in July 2025.",
+    "My work spans local differential privacy, poisoning defenses, efficient learning for connected devices, and the security of language model applications."
+  ],
+  "heroDescription": "I study privacy protection and federated learning, with an interest in reliable, efficient and secure learning systems."
 }
