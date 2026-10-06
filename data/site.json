@@ -1,0 +1,702 @@
+{
+  "profile": {
+    "name": "Qingkui Zeng",
+    "role": "Lecturer",
+    "school": "School of Artificial Intelligence",
+    "institution": "Tongling University",
+    "primaryEmail": "qingkui.zeng@tlu.edu.cn",
+    "secondaryEmail": "zenghuh1996@gmail.com",
+    "scholarUrl": "https://scholar.google.com/citations?user=QiIY6DQAAAAJ&hl=en",
+    "githubUrl": "https://github.com/zenghuh",
+    "siteUrl": "https://zenghuh.site",
+    "location": "Tongling, China"
+  },
+  "education": [
+    {
+      "degree": "Ph.D. in Information and Communication Engineering",
+      "institution": "Nanjing University of Information Science and Technology",
+      "dates": "Sep 2021 – Jun 2025"
+    }
+  ],
+  "employment": [
+    {
+      "role": "Lecturer",
+      "school": "School of Artificial Intelligence",
+      "institution": "Tongling University",
+      "dates": "Jul 2025 – Present"
+    }
+  ],
+  "metrics": {
+    "publications": 19,
+    "citations": 502,
+    "hIndex": 10,
+    "i10Index": 10,
+    "snapshotDate": "2026-10-05"
+  },
+  "updated": "2026-10-06",
+  "research": [
+    {
+      "title": "Privacy & Differential Privacy",
+      "description": "Protecting individual information while retaining useful learning signals, with a focus on local differential privacy and privacy–utility tradeoffs.",
+      "tags": [
+        "Local differential privacy",
+        "Privacy–utility tradeoffs"
+      ]
+    },
+    {
+      "title": "Robust Federated Learning",
+      "description": "Understanding poisoning threats and designing defenses for collaborative learning across heterogeneous clients.",
+      "tags": [
+        "Poisoning defense",
+        "Non-IID data"
+      ]
+    },
+    {
+      "title": "Learning at the Edge",
+      "description": "Exploring efficient, privacy-aware learning for connected devices, healthcare sensing and the Internet of Things.",
+      "tags": [
+        "Edge learning",
+        "Communication efficiency"
+      ]
+    },
+    {
+      "title": "LLM & Content Security",
+      "description": "Studying how instructions hidden in uploaded content can influence language model behavior and compromise application workflows.",
+      "tags": [
+        "Prompt injection",
+        "LLM security"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "date": "Jul 2026",
+      "category": "Publication",
+      "text": "Our work on efficient federated learning with local differential privacy appeared in Computer Networks.",
+      "paper": "paper-14"
+    },
+    {
+      "date": "Feb 2026",
+      "category": "Publication",
+      "text": "Our Prompt-in-Content study was published in the NSS 2025 proceedings.",
+      "paper": "paper-11"
+    },
+    {
+      "date": "Jul 2025",
+      "category": "Appointment",
+      "text": "I joined the School of Artificial Intelligence at Tongling University as a Lecturer."
+    },
+    {
+      "date": "Jun 2025",
+      "category": "Education",
+      "text": "I completed my Ph.D. in Information and Communication Engineering at Nanjing University of Information Science and Technology."
+    }
+  ],
+  "highlights": [
+    {
+      "label": "PRIVACY-PRESERVING LEARNING",
+      "name": "FDLDP",
+      "title": "A better starting point for private learning.",
+      "description": "A two-stage framework uses locally private reports to initialize a global model, then protects client updates during federated fine-tuning. The work studies the connection between privacy, convergence and communication.",
+      "paper": "paper-14",
+      "tags": [
+        "Private pre-training",
+        "Federated fine-tuning"
+      ]
+    },
+    {
+      "label": "ROBUST FEDERATED LEARNING",
+      "name": "FedCleaner",
+      "title": "Detect, then remove harmful influence.",
+      "description": "A server-side defense combines proactive layer-wise anomaly detection with retroactive contribution erasure to address poisoned updates and their influence on the global model.",
+      "paper": "paper-16",
+      "tags": [
+        "Anomaly detection",
+        "Machine unlearning"
+      ]
+    },
+    {
+      "label": "LLM SECURITY",
+      "name": "Prompt-in-Content",
+      "title": "When uploaded content becomes an instruction.",
+      "description": "This study examines adversarial prompts embedded in otherwise ordinary inputs, how they redirect model outputs, and why content isolation matters for safer LLM applications.",
+      "paper": "paper-11",
+      "tags": [
+        "Uploaded inputs",
+        "Output hijacking"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "title": "Electric Guitar & Heavy Music",
+      "category": "SOUND",
+      "description": "I enjoy playing electric guitar, especially rock, metal and modern heavy music. Riffs, rhythm and the search for a good tone are a welcome change of pace.",
+      "image": "electric-guitar.webp",
+      "alt": "Unbranded electric guitar and amplifier under cool blue light",
+      "tags": [
+        "Electric guitar",
+        "Rock & metal"
+      ]
+    },
+    {
+      "title": "Hiking & Time Outdoors",
+      "category": "OUTDOORS",
+      "description": "Hiking gives me time to step away from the screen, follow a trail and take in the details of the natural world. I enjoy the quieter pace of time outdoors.",
+      "image": "hiking-trail.webp",
+      "alt": "An alpine walking trail leading toward snow-covered mountain ridges",
+      "tags": [
+        "Hiking",
+        "Nature"
+      ]
+    },
+    {
+      "title": "Ceramic Glazes & Kiln Firing",
+      "category": "MATERIALS",
+      "description": "I am interested in porcelain glaze colors, surface textures and kiln firing. I enjoy exploring how materials and heat shape the final appearance of a ceramic piece.",
+      "image": "ceramic-glazes.webp",
+      "alt": "Blue porcelain glaze samples and a bowl beside a softly glowing kiln",
+      "tags": [
+        "Porcelain glazes",
+        "Kiln firing"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "paper-01",
+      "title": "DEEP-FEL: Decentralized, Efficient and Privacy-Enhanced Federated Edge Learning for Healthcare Cyber Physical Systems",
+      "authors": [
+        "Zhuotao Lian",
+        "Qinglin Yang",
+        "Weizheng Wang",
+        "Qingkui Zeng",
+        "Mamoun Alazab",
+        "Hong Zhao",
+        "Chunhua Su"
+      ],
+      "venue": "IEEE Transactions on Network Science and Engineering",
+      "venueShort": "IEEE TNSE",
+      "year": 2022,
+      "scholarYear": 2022,
+      "type": "Journal",
+      "volume": "9",
+      "issue": "5",
+      "pages": "3558-3569",
+      "articleNumber": "",
+      "doi": "10.1109/tnse.2022.3175945",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:Y0pCki6q_DkC",
+      "keywords": [
+        "Federated learning",
+        "Edge learning",
+        "Healthcare"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/tnse.2022.3175945",
+      "citations": 131
+    },
+    {
+      "id": "paper-02",
+      "title": "Blockchain-Based Two-Stage Federated Learning With Non-IID Data in IoMT System",
+      "authors": [
+        "Zhuotao Lian",
+        "Qingkui Zeng",
+        "Weizheng Wang",
+        "Thippa Reddy Gadekallu",
+        "Chunhua Su"
+      ],
+      "venue": "IEEE Transactions on Computational Social Systems",
+      "venueShort": "IEEE TCSS",
+      "year": 2023,
+      "scholarYear": 2022,
+      "type": "Journal",
+      "volume": "10",
+      "issue": "4",
+      "pages": "1701-1710",
+      "articleNumber": "",
+      "doi": "10.1109/tcss.2022.3216802",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:eQOLeE2rZwMC",
+      "keywords": [
+        "Federated learning",
+        "Blockchain",
+        "Non-IID data"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/tcss.2022.3216802",
+      "citations": 122,
+      "yearNote": "Scholar record 2022; final citation 2023"
+    },
+    {
+      "id": "paper-03",
+      "title": "Hybrid Anomaly Detection via Multihead Dynamic Graph Attention Networks for Multivariate Time Series",
+      "authors": [
+        "Liwen Zhou",
+        "Qingkui Zeng",
+        "Bo Li"
+      ],
+      "venue": "IEEE Access",
+      "venueShort": "IEEE Access",
+      "year": 2022,
+      "scholarYear": 2022,
+      "type": "Journal",
+      "volume": "10",
+      "issue": "",
+      "pages": "40967-40978",
+      "articleNumber": "",
+      "doi": "10.1109/access.2022.3167640",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:zYLM7Y9cAGgC",
+      "keywords": [
+        "Anomaly detection",
+        "Graph attention",
+        "Time series"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/access.2022.3167640",
+      "citations": 65
+    },
+    {
+      "id": "paper-04",
+      "title": "Defending Against Data Poisoning Attack in Federated Learning With Non-IID Data",
+      "authors": [
+        "Chunyong Yin",
+        "Qingkui Zeng"
+      ],
+      "venue": "IEEE Transactions on Computational Social Systems",
+      "venueShort": "IEEE TCSS",
+      "year": 2024,
+      "scholarYear": 2023,
+      "type": "Journal",
+      "volume": "11",
+      "issue": "2",
+      "pages": "2313-2325",
+      "articleNumber": "",
+      "doi": "10.1109/tcss.2023.3296885",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:ufrVoPGSRksC",
+      "keywords": [
+        "Federated learning",
+        "Poisoning defense",
+        "Non-IID data"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/tcss.2023.3296885",
+      "citations": 46,
+      "yearNote": "Scholar record 2023; final citation 2024"
+    },
+    {
+      "id": "paper-05",
+      "title": "Traffic Sign Recognition Using Optimized Federated Learning in Internet of Vehicles",
+      "authors": [
+        "Zhuotao Lian",
+        "Qingkui Zeng",
+        "Weizheng Wang",
+        "Dequan Xu",
+        "Weizhi Meng",
+        "Chunhua Su"
+      ],
+      "venue": "IEEE Internet of Things Journal",
+      "venueShort": "IEEE IoT Journal",
+      "year": 2024,
+      "scholarYear": 2023,
+      "type": "Journal",
+      "volume": "11",
+      "issue": "4",
+      "pages": "6722-6729",
+      "articleNumber": "",
+      "doi": "10.1109/jiot.2023.3312348",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:_FxGoFyzp5QC",
+      "keywords": [
+        "Federated learning",
+        "Internet of vehicles",
+        "Traffic signs"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/jiot.2023.3312348",
+      "citations": 39,
+      "yearNote": "Scholar record 2023; final citation 2024"
+    },
+    {
+      "id": "paper-06",
+      "title": "WebFed: Cross-platform Federated Learning Framework Based on Web Browser with Local Differential Privacy",
+      "authors": [
+        "Zhuotao Lian",
+        "Qinglin Yang",
+        "Qingkui Zeng",
+        "Chunhua Su"
+      ],
+      "venue": "ICC 2022 - IEEE International Conference on Communications",
+      "venueShort": "ICC 2022",
+      "year": 2022,
+      "scholarYear": 2022,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "2071-2076",
+      "articleNumber": "",
+      "doi": "10.1109/icc45855.2022.9838421",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:qjMakFHDy7sC",
+      "keywords": [
+        "Federated learning",
+        "Local differential privacy",
+        "Web browsers"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/icc45855.2022.9838421",
+      "citations": 20
+    },
+    {
+      "id": "paper-07",
+      "title": "Privacy-preserving Blockchain-based Global Data Sharing for Federated Learning with Non-IID Data",
+      "authors": [
+        "Zhuotao Lian",
+        "Qingkui Zeng",
+        "Chunhua Su"
+      ],
+      "venue": "2022 IEEE 42nd International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+      "venueShort": "ICDCS Workshops 2022",
+      "year": 2022,
+      "scholarYear": 2022,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "193-198",
+      "articleNumber": "",
+      "doi": "10.1109/icdcsw56584.2022.00044",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:IjCSPb-OGe4C",
+      "keywords": [
+        "Federated learning",
+        "Blockchain",
+        "Data sharing"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/icdcsw56584.2022.00044",
+      "citations": 15
+    },
+    {
+      "id": "paper-08",
+      "title": "Privacy-Enhanced Federated Generative Adversarial Networks for Internet of Things",
+      "authors": [
+        "Qingkui Zeng",
+        "Liwen Zhou",
+        "Zhuotao Lian",
+        "Huakun Huang",
+        "Jung Yoon Kim"
+      ],
+      "venue": "The Computer Journal",
+      "venueShort": "The Computer Journal",
+      "year": 2022,
+      "scholarYear": 2022,
+      "type": "Journal",
+      "volume": "65",
+      "issue": "11",
+      "pages": "2860-2869",
+      "articleNumber": "",
+      "doi": "10.1093/comjnl/bxac060",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:Tyk-4Ss8FVUC",
+      "keywords": [
+        "Federated learning",
+        "Generative models",
+        "Internet of Things"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1093/comjnl/bxac060",
+      "citations": 13
+    },
+    {
+      "id": "paper-09",
+      "title": "Hybrid Representation and Decision Fusion towards Visual-textual Sentiment",
+      "authors": [
+        "Chunyong Yin",
+        "Sun Zhang",
+        "Qingkui Zeng"
+      ],
+      "venue": "ACM Transactions on Intelligent Systems and Technology",
+      "venueShort": "ACM TIST",
+      "year": 2023,
+      "scholarYear": 2023,
+      "type": "Journal",
+      "volume": "14",
+      "issue": "3",
+      "pages": "1-17",
+      "articleNumber": "",
+      "doi": "10.1145/3583076",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:WF5omc3nYNoC",
+      "keywords": [
+        "Multimodal learning",
+        "Sentiment analysis"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1145/3583076",
+      "citations": 12
+    },
+    {
+      "id": "paper-10",
+      "title": "Local Differential Privacy for Data Streams",
+      "authors": [
+        "Xianjin Fang",
+        "Qingkui Zeng",
+        "Gaoming Yang"
+      ],
+      "venue": "Security and Privacy in Digital Economy",
+      "venueShort": "SPDE 2020",
+      "year": 2020,
+      "scholarYear": 2020,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "143-160",
+      "articleNumber": "",
+      "doi": "10.1007/978-981-15-9129-7_11",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:9yKSN-GCB0IC",
+      "keywords": [
+        "Local differential privacy",
+        "Data streams"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1007/978-981-15-9129-7_11",
+      "citations": 12
+    },
+    {
+      "id": "paper-11",
+      "title": "Prompt-in-Content Attacks: Exploiting Uploaded Inputs to Hijack LLM Behavior",
+      "authors": [
+        "Zhuotao Lian",
+        "Weiyu Wang",
+        "Qingkui Zeng",
+        "Toru Nakanishi",
+        "Teruaki Kitasuka",
+        "Chunhua Su"
+      ],
+      "venue": "Network and System Security (NSS 2025)",
+      "venueShort": "NSS 2025",
+      "year": 2026,
+      "scholarYear": 2025,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "146-160",
+      "articleNumber": "",
+      "doi": "10.1007/978-981-95-6419-4_9",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:UebtZRa9Y70C",
+      "keywords": [
+        "LLM security",
+        "Prompt injection",
+        "Uploaded content"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1007/978-981-95-6419-4_9",
+      "citations": 8,
+      "yearNote": "NSS 2025 proceedings; published February 2026",
+      "preprintUrl": "https://arxiv.org/abs/2508.19287"
+    },
+    {
+      "id": "paper-12",
+      "title": "Privacy-Enhanced Federated WiFi Sensing for Health Monitoring in Internet of Things",
+      "authors": [
+        "Zhuotao Lian",
+        "Qingkui Zeng",
+        "Zhusen Liu",
+        "Haoda Wang",
+        "Chuan Ma",
+        "Weizhi Meng",
+        "Chunhua Su",
+        "Kouichi Sakurai"
+      ],
+      "venue": "IEEE Internet of Things Journal",
+      "venueShort": "IEEE IoT Journal",
+      "year": 2025,
+      "scholarYear": 2024,
+      "type": "Journal",
+      "volume": "12",
+      "issue": "3",
+      "pages": "2994-3002",
+      "articleNumber": "",
+      "doi": "10.1109/jiot.2024.3476149",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:roLk4NBRz8UC",
+      "keywords": [
+        "Federated learning",
+        "WiFi sensing",
+        "Health monitoring"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/jiot.2024.3476149",
+      "citations": 8,
+      "yearNote": "Scholar record 2024; final citation 2025"
+    },
+    {
+      "id": "paper-13",
+      "title": "Local differential privacy for human-centered computing",
+      "authors": [
+        "Xianjin Fang",
+        "Qingkui Zeng",
+        "Gaoming Yang"
+      ],
+      "venue": "EURASIP Journal on Wireless Communications and Networking",
+      "venueShort": "EURASIP JWCN",
+      "year": 2020,
+      "scholarYear": 2020,
+      "type": "Journal",
+      "volume": "2020",
+      "issue": "1",
+      "pages": "",
+      "articleNumber": "65",
+      "doi": "10.1186/s13638-020-01675-8",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:2osOgNQ5qMEC",
+      "keywords": [
+        "Local differential privacy",
+        "Human-centered computing"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1186/s13638-020-01675-8",
+      "citations": 8
+    },
+    {
+      "id": "paper-14",
+      "title": "Efficient privacy-preserving federated learning with local differential privacy",
+      "authors": [
+        "Chunyong Yin",
+        "Qingkui Zeng"
+      ],
+      "venue": "Computer Networks",
+      "venueShort": "Computer Networks",
+      "year": 2026,
+      "scholarYear": 2026,
+      "type": "Journal",
+      "volume": "285",
+      "issue": "",
+      "pages": "",
+      "articleNumber": "112351",
+      "doi": "10.1016/j.comnet.2026.112351",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:8k81kl-MbHgC",
+      "keywords": [
+        "Federated learning",
+        "Local differential privacy",
+        "Pre-training"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1016/j.comnet.2026.112351",
+      "citations": 1
+    },
+    {
+      "id": "paper-15",
+      "title": "FLNAP: Mitigating LDP Impact in Federated Learning with Noise-Aware Pre-Training",
+      "authors": [
+        "Qingkui Zeng",
+        "Zhuotao Lian",
+        "Huijuan Niu",
+        "Jingcheng Song",
+        "Hong Zhao",
+        "Chunhua Su"
+      ],
+      "venue": "2025 17th International Conference on Advanced Infocomm Technology (ICAIT)",
+      "venueShort": "ICAIT 2025",
+      "year": 2025,
+      "scholarYear": 2025,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "128-134",
+      "articleNumber": "",
+      "doi": "10.1109/icait66450.2025.11353293",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:0EnyYjriUFMC",
+      "keywords": [
+        "Federated learning",
+        "Local differential privacy",
+        "Noise-aware pre-training"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/icait66450.2025.11353293",
+      "citations": 1
+    },
+    {
+      "id": "paper-16",
+      "title": "POSTER: A Server-Side Proactive Defense Framework for Poison-Resilient Federated Learning",
+      "authors": [
+        "Qingkui Zeng",
+        "Zhuotao Lian"
+      ],
+      "venue": "Provable and Practical Security (ProvSec 2025)",
+      "venueShort": "ProvSec 2025",
+      "year": 2026,
+      "scholarYear": 2025,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "498-502",
+      "articleNumber": "",
+      "doi": "10.1007/978-981-95-2961-2_29",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:hqOjcs7Dif8C",
+      "keywords": [
+        "Federated learning",
+        "Poisoning defense",
+        "Machine unlearning"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1007/978-981-95-2961-2_29",
+      "citations": 1,
+      "yearNote": "First online 2025; final citation 2026"
+    },
+    {
+      "id": "paper-17",
+      "title": "Enhancing Privacy and Accountability in Federated Learning for Smart IoT",
+      "authors": [
+        "Zhuotao Lian",
+        "Qingkui Zeng",
+        "Chunhua Su"
+      ],
+      "venue": "Proceedings of the Fourth International Conference on Advances in Computing Research (ACR’26)",
+      "venueShort": "ACR 2026",
+      "year": 2026,
+      "scholarYear": 2026,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "441-443",
+      "articleNumber": "",
+      "doi": "10.1007/978-3-032-23883-2_36",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:3fE2CSJIrl8C",
+      "keywords": [
+        "Federated learning",
+        "Privacy",
+        "Accountability"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1007/978-3-032-23883-2_36"
+    },
+    {
+      "id": "paper-18",
+      "title": "Layerwise Selective Quantization for Communication-Efficient Federated Learning in Consumer IoT Devices",
+      "authors": [
+        "Zhuotao Lian",
+        "Qingkui Zeng",
+        "Chunhua Su"
+      ],
+      "venue": "2026 IEEE International Conference on Consumer Electronics (ICCE)",
+      "venueShort": "ICCE 2026",
+      "year": 2026,
+      "scholarYear": 2026,
+      "type": "Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "1-5",
+      "articleNumber": "",
+      "doi": "10.1109/icce67443.2026.11449814",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:5nxA0vEk-isC",
+      "keywords": [
+        "Federated learning",
+        "Quantization",
+        "Consumer IoT"
+      ],
+      "metadataSource": "https://api.crossref.org/works/10.1109/icce67443.2026.11449814"
+    },
+    {
+      "id": "paper-19",
+      "title": "A Game-Theoretic Framework for Personalized Privacy-Utility Tradeoffs in Federated Learning",
+      "authors": [
+        "Haiqing Li",
+        "Chunyong Yin",
+        "Qingkui Zeng",
+        "Chenglong Qi"
+      ],
+      "venue": "Human-centric Computing and Information Sciences",
+      "venueShort": "HCIS",
+      "year": 2026,
+      "scholarYear": 2026,
+      "type": "Journal",
+      "volume": "16",
+      "issue": "",
+      "pages": "1-17",
+      "articleNumber": "41",
+      "doi": "10.22967/HCIS.2026.16.041",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:MXK_kJrjxJIC",
+      "keywords": [
+        "Federated learning",
+        "Game theory",
+        "Privacy-utility tradeoff"
+      ],
+      "metadataSource": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337488"
+    }
+  ]
+}
