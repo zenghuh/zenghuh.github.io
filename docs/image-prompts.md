@@ -1,5 +1,7 @@
 # Generated imagery
 
+The hiking and ceramics prompts below document the original generated illustrations. On 2026-10-07, their displayed interest-card images were replaced with owner-supplied photographs: `assets/images/hiking-photo.webp` and `assets/images/ceramic-glaze-photo.webp`, each optimized to 900 × 600 with a centered card crop. The hero and guitar illustrations remain in use. Original uploaded photographs were preserved outside the repository.
+
 Generated with the built-in ImageGen tool. Originals remain in the Codex generated-images folder; the selected outputs are copied into this project as optimized local WebP assets. No third-party author portrait or reference-site photograph is reused. The images are illustrative; they make no claim about personal visits, instruments owned, or ceramic works produced.
 
 ## hero

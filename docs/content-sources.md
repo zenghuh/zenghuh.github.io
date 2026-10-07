@@ -1,12 +1,14 @@
 # Content sources
 
-Last content update: 2026-10-06. Scholar snapshot collected: 2026-10-05.
+Last content update: 2026-10-07. Scholar snapshot collected: 2026-10-05.
 
 ## Personal information
 
 The owner supplied and confirmed the Lecturer appointment at Tongling University, School of Artificial Intelligence; the Ph.D. in Information and Communication Engineering at Nanjing University of Information Science and Technology (Sep 2021–Jun 2025); employment from Jul 2025 to present; both email addresses; and interests in electric guitar, rock/metal/modern heavy music, hiking, porcelain glazes and kiln firing.
 
 No earlier degree, award, grant, service appointment, personal trip, performance or ceramics achievement was inferred.
+
+On 2026-10-07, the owner supplied the snow-mountain and blue-glazed cup photographs for the hiking and ceramic interests cards, and requested the profile focus lines “Federated learning.” and “AI security.”
 
 ## Academic profile
 
