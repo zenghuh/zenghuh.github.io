@@ -51,5 +51,5 @@ for(const file of ['index.html','cv/index.html','404.html']){
   }
   for(const [,url] of html.matchAll(/<img[^>]+src="([^"]+)"/g))assert(url.startsWith('/assets/images/'),'Images must be local');
 }
-for(const file of ['snow-mountains.webp','electric-guitar.webp','hiking-trail.webp','ceramic-glazes.webp'])assert((await stat(path.join(root,'assets/images',file))).size<250000,'Oversized generated image');
+for(const file of ['snow-mountains.webp',...data.interests.map(item=>item.image)])assert((await stat(path.join(root,'assets/images',file))).size<250000,'Oversized optimized image');
 console.log('Content, citation years, static HTML, local assets, internal links and legacy removal: passed.');

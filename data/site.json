@@ -33,7 +33,7 @@
     "i10Index": 10,
     "snapshotDate": "2026-10-05"
   },
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "research": [
     {
       "title": "Privacy & Differential Privacy",
@@ -143,8 +143,8 @@
       "title": "Hiking & Time Outdoors",
       "category": "OUTDOORS",
       "description": "Hiking gives me time to step away from the screen, follow a trail and take in the details of the natural world. I enjoy the quieter pace of time outdoors.",
-      "image": "hiking-trail.webp",
-      "alt": "An alpine walking trail leading toward snow-covered mountain ridges",
+      "image": "hiking-photo.webp",
+      "alt": "Snow-covered mountain peaks beneath a bright blue sky",
       "tags": [
         "Hiking",
         "Nature"
@@ -154,8 +154,8 @@
       "title": "Ceramic Glazes & Kiln Firing",
       "category": "MATERIALS",
       "description": "I am interested in porcelain glaze colors, surface textures and kiln firing. I enjoy exploring how materials and heat shape the final appearance of a ceramic piece.",
-      "image": "ceramic-glazes.webp",
-      "alt": "Blue porcelain glaze samples and a bowl beside a softly glowing kiln",
+      "image": "ceramic-glaze-photo.webp",
+      "alt": "A blue-glazed ceramic cup with a crackled surface on a wooden table",
       "tags": [
         "Porcelain glazes",
         "Kiln firing"

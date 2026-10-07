@@ -33,7 +33,7 @@ The previous site's exact master commit, `073895ebadba325ea178ee73818023599a39c5
 
 The long-page reading order and academic content patterns were informed by https://xukun12138.github.io/. All new HTML, CSS and JavaScript were written independently. Reference-author photos, documents, paper figures and tracking services are not included.
 
-The design uses white, ice blue, snow-mountain blue and deep navy, with local optimized imagery and system sans-serif fonts. Decorative landscapes and interest images were generated with the built-in ImageGen tool; the small guitar profile photograph comes from the owner's previous site. These illustrations do not document personal trips or performances.
+The design uses white, ice blue, snow-mountain blue and deep navy, with local optimized imagery and system sans-serif fonts. The hero landscape and electric-guitar interest image were generated with the built-in ImageGen tool. The hiking and ceramic interests use photographs supplied by the owner on 2026-10-07; the small guitar profile photograph comes from the owner's previous site. Generated illustrations do not document personal trips or performances.
 
 See `docs/content-sources.md` for provenance, `docs/image-prompts.md` for image prompts and `design-qa.md` for browser and visual acceptance results.
 
