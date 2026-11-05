@@ -1,6 +1,6 @@
 # Content sources
 
-Last content update: 2026-10-07. Scholar snapshot collected: 2026-10-05.
+Last content update: 2026-11-05. Scholar snapshot collected: 2026-10-05.
 
 ## Personal information
 
@@ -20,6 +20,10 @@ On 2026-10-07, the owner supplied the snow-mountain and blue-glazed cup photogra
 The metrics are static dated observations, not live visitor-side scraping.
 
 ## Publication metadata
+
+On 2026-11-05, the owner supplied a new Scholar record for **APT-Oriented Steganographic Covert Channels in Federated Learning**. The website list now contains 20 publications. The original 19-publication Scholar snapshot and its citation metrics remain dated 2026-10-05; the homepage publication count is computed from the current list independently of those historical metrics.
+
+The new record was verified against the [Springer chapter](https://link.springer.com/chapter/10.1007/978-981-92-6834-4_5) and [Crossref DOI record](https://api.crossref.org/works/10.1007/978-981-92-6834-4_5): authors Qingkui Zeng and Zhuotao Lian, ICICS 2026, LNCS 17215, pages 81-100, DOI 10.1007/978-981-92-6834-4_5. Springer first online: 2026-10-17; final citation and print year: 2027. The card and CV explicitly distinguish the conference/online year from the final citation year. The Scholar detail page could not be fetched, so no current Scholar metrics or Scholar-displayed year were inferred.
 
 Eighteen publication records were matched by title against publisher-deposited Crossref records, including full author order, DOI and available volume/issue/page metadata. `metadataSource` in each record points to its provenance. Two initial low-similarity search candidates were rejected; the exact Springer DOI was used for the data-streams paper. The HCIS record was checked against the Korean Citation Index record (ART003337488), which links to the journal's article and DOI 10.22967/HCIS.2026.16.041.
 

@@ -6,7 +6,7 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 const read=file=>readFile(path.join(root,file),'utf8');
 const data=JSON.parse(await read('data/site.json'));
 const total=data.publications.length;
-assert.equal(total,data.metrics.publications,'Publication total matches the content snapshot');
+assert(total>=data.metrics.publications,'Current publication list includes the historical Scholar snapshot');
 assert(total>0);
 assert(Array.isArray(data.biography) && data.biography.every(text=>typeof text==='string'));
 assert(typeof data.heroDescription==='string');
@@ -14,7 +14,7 @@ assert.equal(new Set(data.publications.map(p=>p.id)).size,total,'Unique publicat
 assert.equal(new Set(data.publications.map(p=>p.doi.toLowerCase())).size,total,'Unique publication DOIs');
 assert.match(data.metrics.snapshotDate,/^\d{4}-\d{2}-\d{2}$/);
 for(const key of ['citations','hIndex','i10Index'])assert(Number.isInteger(data.metrics[key]) && data.metrics[key]>=0);
-if(data.metrics.snapshotDate==='2026-10-05'){assert.equal(total,19);assert.equal(data.metrics.citations,502);}
+if(data.metrics.snapshotDate==='2026-10-05'){assert.equal(data.metrics.publications,19);assert.equal(data.metrics.citations,502);}
 assert.equal(data.profile.primaryEmail,'qingkui.zeng@tlu.edu.cn');
 assert.equal(data.profile.secondaryEmail,'zenghuh1996@gmail.com');
 assert.equal(data.education[0].dates,'Sep 2021 – Jun 2025');
