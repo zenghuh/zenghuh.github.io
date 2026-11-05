@@ -33,7 +33,7 @@
     "i10Index": 10,
     "snapshotDate": "2026-10-05"
   },
-  "updated": "2026-10-07",
+  "updated": "2026-11-05",
   "research": [
     {
       "title": "Privacy & Differential Privacy",
@@ -69,6 +69,12 @@
     }
   ],
   "news": [
+    {
+      "date": "Oct 2026",
+      "category": "Publication",
+      "text": "Our paper on APT-oriented steganographic covert channels in federated learning was published online in the ICICS 2026 proceedings.",
+      "paper": "paper-20"
+    },
     {
       "date": "Jul 2026",
       "category": "Publication",
@@ -697,6 +703,32 @@
         "Privacy-utility tradeoff"
       ],
       "metadataSource": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337488"
+    },
+    {
+      "id": "paper-20",
+      "title": "APT-Oriented Steganographic Covert Channels in Federated Learning",
+      "authors": [
+        "Qingkui Zeng",
+        "Zhuotao Lian"
+      ],
+      "venue": "Information and Communications Security (ICICS 2026)",
+      "venueShort": "ICICS 2026",
+      "year": 2027,
+      "type": "Conference",
+      "volume": "17215",
+      "issue": "",
+      "pages": "81-100",
+      "articleNumber": "",
+      "doi": "10.1007/978-981-92-6834-4_5",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiIY6DQAAAAJ&citation_for_view=QiIY6DQAAAAJ:kNdYIx-mwKoC",
+      "keywords": [
+        "Federated learning",
+        "Steganography",
+        "Covert channels",
+        "Advanced persistent threats"
+      ],
+      "metadataSource": "https://link.springer.com/chapter/10.1007/978-981-92-6834-4_5",
+      "yearNote": "ICICS 2026; first online 17 October 2026; final citation 2027"
     }
   ],
   "biography": [
